@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/sys_user_selectin.css"/>
+	<script src="js/jquery-1.8.0.js"></script>
+	<script src="js/sys_user_selectin.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<div id="top">
+		<img src="img/title.png"/>
+		<span id="title">条件查询会员</span>
+	</div>
+	<div class="hr"></div>
+	<div id="middle">
+		<div class="dv1 left">类型：</div>
+		<div class="dv2 left" id="dv2_1">按用户名查询</div>
+		<div class="dv2 left" id="dv2_2">按手机号查询</div>
+		<div class="dv2 left" id="dv2_3">按邮箱查询</div>
+	</div>
+	
+	<!--搜索框-->
+	<div id="search">
+		<div class="sea_1" style="display: none;">
+			<div class="inp left">
+				<img src="img/text.png"/>
+				<input type="text" name="请输入用户名" id="inp1" placeholder="请输入要查询的用户名" value="" />
+			</div>
+			<div class="btn left">
+				<button id="btn1">查&nbsp;&nbsp;&nbsp;&nbsp;询</button>
+			</div>
+		</div>
+		<div class="sea_1" style="display: none;">
+			<div class="inp left">
+				<img src="img/text.png"/>
+				<input type="text" name="请输入手机号" id="inp2" placeholder="请输入要查询的手机号" value="" />
+			</div>
+			<div class="btn left">
+				<button id="btn2">查&nbsp;&nbsp;&nbsp;&nbsp;询</button>
+			</div>
+		</div>
+		<div class="sea_1" style="display: none;">
+			<div class="inp left">
+				<img src="img/text.png"/>
+				<input type="text" name="请输入邮箱" id="inp3" placeholder="请输入要查询的邮箱" value="" />
+			</div>
+			<div class="btn left">
+				<button id="btn3">查&nbsp;&nbsp;&nbsp;&nbsp;询</button>
+			</div>
+		</div>
+	</div>
+	
+	<div id="divtabler">
+		<div class="next3_4_1" id="nextdiv">
+			<table id="table" >
+				<tr>
+					<th>手机号</th>
+					<th>姓名</th>
+					<th>密码</th>
+					<th>生日</th>
+					<th>性别</th>
+					<th>邮箱</th>
+					<th>所属区</th>
+					<th>所属街道</th>
+					<th>操作</th>
+				</tr>
+			</table>
+			<!--<div class="waitPic" id="waitPic" style="display: none;">
+				<img src="img/wait.gif" />
+			</div>-->
+		</div>
+	</div>
+	
+	<div id="bottom">
+		<ul class="pagination" id="jsPagination">
+			<li>首页</li>
+		    <li></li>
+		    <li></li>
+		    <li></li>
+		    <li></li>
+		    <li></li>
+		    <li>末页</li>
+		</ul>
+	</div>
+</body>
+</html>

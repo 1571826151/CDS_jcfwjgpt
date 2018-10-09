@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/sys2_zhengwu_insert.css"/>
+	<script src="js/jquery-1.8.0.js"></script>
+	
+	<link href="textarea/themes/default/css/umeditor.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" charset="utf-8" src="textarea/umeditor.config.js"></script>
+    <script type="text/javascript" charset="utf-8" src="textarea/umeditor.min.js"></script>
+    <script type="text/javascript" src="textarea/lang/zh-cn/zh-cn.js"></script>
+	
+	<script src="js/sys2_zhengwu_insert.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<div id="top">
+		<img src="img/title.png"/>
+		<span id="title">添加政务公开文件</span>
+	</div>
+	<div class="hr"></div>
+	<div class="middle">
+		<div class="left">
+			<div class="div1">
+				<div class="font">文件序号：</div>
+				<div class="inp">
+					<input type="text" name="" id="inp1" value="" placeholder="（づ￣3￣）づ╭❤～请输入文件序号"/>
+				</div>
+			</div>
+			<div class="div1">
+				<div class="font">编辑时间：</div>
+				<div class="inp">
+					<input style="width:200px;" type="date" name="" id="inp2" value="（づ￣3￣）づ╭❤～请输入文件序号" placeholder="（づ￣3￣）づ╭❤～请输入文件序号"/>
+				</div>
+			</div>
+			<div class="div1">
+				<div class="font">选择范围：</div>
+				<div class="inp">
+					<div class="classify" style="margin-right:50px;" id="qu">
+						区级
+					</div>
+					<div class="classify" id="jiedao">
+						街道级
+					</div>
+				</div>
+			</div>
+			<div class="div1">
+				<div class="font">所属地区：</div>
+				<div class="inp" style="width:200px">
+					<span>区</span>
+					<select name="quji" id="select2">
+						<option value="--请选择--">--请选择--</option>
+					</select>
+				</div>
+				<div class="inp" style="display: none;" id="showjiedao">
+					<span>街道</span>
+					<select name="quji" id="select3" >
+						<option value="--请选择--">--请选择--</option>
+					</select>
+				</div>
+			</div>
+			<div class="div1">
+				<div class="font">文档名称：</div>
+				<div class="inp">
+					<input type="text" name="" id="inp3" value="" placeholder="（づ￣3￣）づ╭❤～请输入文件名称"/>
+				</div>
+			</div>
+			<div class="div1">
+				<div class="font">文件正文：</div>
+				<div class="inp1">
+					<script type="text/plain" id="myEditor" style="min-width:1000px;height:640px;padding-bottom: 15px;">
+    					<p>这里我可以写一些输入提示</p>
+					</script>
+				</div>
+			</div>
+			<div class="div1">
+				<center>
+					<button id="btn1">提&nbsp;&nbsp;&nbsp;交</button>
+				</center>
+			</div>
+		</div>
+		<div class="hr1"></div>
+		<div class="right">
+			
+		</div>
+	</div>
+</body>
+</html>

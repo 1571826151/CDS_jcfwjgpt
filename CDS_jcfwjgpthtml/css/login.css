@@ -1,0 +1,131 @@
+
+
+*{margin: 0;padding: 0;}
+
+.float{
+	float:left;
+}
+#top{
+	width:1000px;
+	height:100px;
+}
+#top img{
+	width:70px;
+	margin-top:15px;
+	margin-left:70px;
+	position: relative;
+}
+#top #title{
+	position: relative;
+	left:70px;
+	top:-20px;
+	color:#8b3a4d;
+	letter-spacing: 10px;
+	font:bold 50px "RuiHeiXiTi";
+}
+#top #title span{
+	transition: 0.5s all ease;
+}
+#middle{
+	width:100%;
+	height:565px;
+	background:gainsboro;
+}
+#bottom{
+	width:100%;
+	height:100px;
+}
+#backgr{
+	width:100%;
+	height:565px;
+	background: url(../img/logo1.jpg);
+	background-repeat: no-repeat;
+	background-position: 10% 0%;
+	opacity: 1;
+}
+#backgr1{
+	width:100%;
+	height:565px;
+	background: url(../img/logo2.jpg);
+	background-repeat: no-repeat;
+	background-position: 10% 0%;
+	position: absolute;
+	top: 100px;left: 0;
+	opacity: 0;
+}
+#loginpage{
+	width:400px;
+	height:400px;
+	position: absolute;
+	opacity: 0.8;
+	left:140px;
+	top:170px;
+	background: gainsboro;
+	border-radius: 15px;
+}
+.dv1{
+	position: relative;
+	margin:40px 0 0 30px;
+	font: bold 23px "微软雅黑";
+}
+.dv2{
+	width:340px;
+	height:50px;
+	position: relative;
+	margin-left:30px;
+	margin-top:20px;
+}
+.dv2_1{
+	background: white;
+}
+.dv2z1{
+	width:50px;
+	height:50px;
+	background: darkgray;
+	position: relative;
+}
+.dv2z1 img{
+	width:45px;
+	height:45px;
+	position: absolute;
+	left: 0;right: 0;top: 0;bottom: 0;
+	margin: auto;
+}
+#input1,#input2{
+	float:left;
+	position: relative;
+	width:270px;height:30px;
+	left:10px;top:10px;
+	border: 0px;
+	font:20px "RuiHeiXiTi";
+}
+#btn{
+	width:340px;
+	height:50px;
+	border-radius: 10px;
+	background: orangered;
+	color: white;
+	font:23px "Microsoft YaHei";
+}
+#btn:hover{
+	background: oranged;
+}
+#dv3{
+	position: relative;
+	left:150px;
+	margin-left:30px;
+	top:25px;
+	color: dimgray;
+	font:15px "Microsoft YaHei";
+}
+#dv3:hover{
+	color:crimson;
+}
+#timer{
+	position: absolute;
+	width:300px;
+	height: 25px;
+	right:0;top:75px;
+	text-align: center;
+	font:17px "Microsoft YaHei";
+}

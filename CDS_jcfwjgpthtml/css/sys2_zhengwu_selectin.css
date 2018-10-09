@@ -1,0 +1,222 @@
+*{margin: 0;padding: 0;}
+body{
+	height:600px;
+	width:100%;
+}
+.left{
+	float: left;
+}
+#top img{
+	position: relative;
+	top:2px;
+	left:5px;
+}
+.changediv{
+	background: gainsboro;
+	font: 20px "RuiHeiXiTi";
+	margin-left: 20px;
+	padding: 1px 10px 1px 10px;
+	border-radius: 10px;
+	cursor: pointer;
+	
+	transition: 0.3s all ease;
+}
+.changediv:hover{
+	background:#ffe4dc;
+	color: #ff5000;
+}
+
+
+#title{
+	font:22px "RuiHeiXiTi";
+}
+.hr{
+	width:98%;	/*记着更改*/
+	position: relative;
+	left:5px;
+	height:2px;
+	background:black;
+	top:5px;
+}
+
+#middle1 ,#middle2{
+	width:96%;
+	height:40px;
+	position: relative;
+	border: solid 2px gainsboro;
+	left: 0;right: 0;
+	margin:15px auto 0;
+}
+#middle1 div,#middle2 div{
+	height:40px;
+	position: relative;
+	left: 20px;
+	font: 25px/35px "RuiHeiXiTi";
+}
+.dv1{
+	width:125px;
+}
+.dv2{
+	width:200px;
+	/*background:red;*/
+	text-align: center;
+	cursor: pointer;
+	border-radius: 10px;
+	margin-left: 5px;
+	
+	transition: 0.3s all ease;
+}
+
+.dv2:hover{
+	background:#ffe4dc;
+	color: #ff5000;
+}
+#search{
+	width:96%;
+	height:50px;
+	position: relative;
+	left: 0;right: 0;
+	margin: 7px auto 0;
+	border-radius: 10px;
+	border: solid 2px gainsboro;
+}
+.sea_1{
+	margin-top:5px;
+	margin-left: 20px;
+}
+.inp{
+	width:750px;
+	height:40px;
+	background: gainsboro;
+}
+.inp img{
+	float: left;
+}
+.inp input{
+	float:left;
+	width:696px;
+	height: 40px;
+	margin-left: 10px;
+	border:0px;
+	background: gainsboro;
+	font:18px "RuiHeiXiTi";
+}
+#dateSpan{
+	width:90px;
+	height: 40px;
+	margin-left: 10px;
+	
+	font:18px/40px "RuiHeiXiTi";
+	
+}
+#doDate,#doDate1{
+	float:left;
+	width:200px;
+	height: 40px;
+	margin-left: 10px;
+	border:0px;
+	background: gainsboro;
+	font:18px "RuiHeiXiTi";
+}
+.btn{
+	width:200px;
+	height:40px;
+	margin-left: 10px;
+}
+.btn button{
+	width:200px;
+	height:40px;
+	background: gainsboro;
+	border-radius: 10px;
+	font:18px "RuiHeiXiTi";
+}
+#divtabler{
+	width:96%;
+	height:500px;
+	position: relative;
+	left: 0;right: 0;
+	margin: 7px auto 0;
+	border: solid 2px gainsboro;
+}
+
+bottom{
+	width:60%;
+	height:40px;
+	background: red;
+	position: absolute;
+	bottom: 6.5px;left: 0;right: 0;
+	margin:auto;
+}
+
+
+.hide{
+    display: none!important;
+}
+.pagination{
+    margin: 0 auto;
+    padding: 5px;
+    list-style: none;
+    text-align: center;
+}
+.pagination li{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    line-height: 30px;
+    margin: 0 5px 0 0;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #00bc9b;
+    color: #00bc9b;
+    cursor: pointer;
+}
+.pagination li.current,
+.pagination li:hover{
+    background: #00bc9b;
+    color: #ffffff;
+}
+.demo {
+    margin: 10px 0;
+    padding: 10px;
+    background: #eeeeee;
+    text-align: center;
+}
+
+
+.next3_4_1{
+	width:98%;
+	overflow: hidden;
+	margin:10px 10px 0px 10px;
+}
+.next3_4_1 table, td, th{
+  	border:2px solid black;
+} 
+.next3_4_1 table{
+  	width:100%;
+  	border-collapse:collapse;
+}
+th{
+  	height:50px;
+  	background-color:green;
+  	font:bold 20px "RuiHeiXiTi";
+  	color:white;
+}
+td{
+	text-align:center;
+	height:27px;
+	font:17px "RuiHeiXiTi";
+}
+
+.waitPic{
+	width:124px;
+	height:124px;
+	position: absolute;
+	left: 0;top: 0;
+	right: 0;bottom: 0;
+	margin: auto;	
+}
+.waitPic img{
+	width:124px;
+	height:124px;
+}

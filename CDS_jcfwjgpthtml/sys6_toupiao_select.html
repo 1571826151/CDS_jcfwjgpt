@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Document</title>
+	<script src="js/sys6_toupiao_select.js" type="text/javascript" charset="utf-8"></script>
+	<link rel="stylesheet" type="text/css" href="css/sys6_toupiao_select.css"/>
+</head>
+<body>
+	<div id="top">
+		<img src="img/title.png"/>
+		<span id="title">&nbsp;&nbsp;信箱</span>
+	</div>
+	<div class="hr"></div>
+	<div id="middle">
+		<div class="dv1 left">搜索类型：</div>
+		<div class="dv2 left" id="dv2_1">按关键字查询</div>
+		<div class="dv2 left" id="dv2_2">按开始时间结束时间查询</div>
+	</div>
+	
+	<!--搜索框-->
+	<div id="search">
+		<div class="sea_1" style="display: none;">
+			<div class="inp left">
+				<img src="img/text.png"/>
+				<input type="text" name="请输入关键字" id="" placeholder="请输入要查询的投票关键字" value="" />
+			</div>
+			<div class="btn left">
+				<button>查&nbsp;&nbsp;&nbsp;&nbsp;询</button>
+			</div>
+		</div>
+		<div class="sea_1" style="display: none;">
+			<div class="inp left">
+				<span id="dateSpan" class="left">起始时间：</span>
+				<input type="date" name="" id="doDate" value="" />
+				<span id="dateSpan" class="left">结束时间：</span>
+				<input type="date" name="" id="doDate1" value="" />
+			</div>
+			<div class="btn left">
+				<button>查&nbsp;&nbsp;&nbsp;&nbsp;询</button>
+			</div>
+		</div>
+	</div>
+	
+	<div id="divtabler">
+		<div class="next3_4_1">
+			<table>
+				<tr>
+					<th>投票序号</th>
+					<th>投票名称</th>
+					<th>开始时间</th>
+					<th>结束时间</th>
+					<th></th>
+					<th></th>
+				</tr>
+				<tr>
+					<td>1212</td>
+					<td>121</td>
+					<td>212</td>
+					<td>212</td>
+					<td><span id="span1" style="cursor: pointer;">查看</span></td>
+					<td>删除</td>
+				</tr>
+				<tr>
+					<td>1212</td>
+					<td>121</td>
+					<td>212</td>
+					<td>212</td>
+					<td>查看</td>
+					<td>删除</td>
+				</tr>
+				<tr>
+					<td>1212</td>
+					<td>121</td>
+					<td>212</td>
+					<td>212</td>
+					<td>查看</td>
+					<td>删除</td>
+				</tr>
+				<tr>
+					<td>1212</td>
+					<td>121</td>
+					<td>212</td>
+					<td>212</td>
+					<td>查看</td>
+					<td>删除</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	
+	<div id="bottom">
+		<ul class="pagination" id="jsPagination">
+			<li>首页</li>
+		    <li></li>
+		    <li></li>
+		    <li></li>
+		    <li></li>
+		    <li></li>
+		    <li>末页</li>
+		</ul>
+	</div>
+</body>
+</html>

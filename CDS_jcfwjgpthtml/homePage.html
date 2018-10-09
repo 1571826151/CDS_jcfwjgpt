@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Document</title>
+	<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js"></script>
+	<script src="js/homePage.js" type="text/javascript" charset="utf-8"></script>
+	<link rel="stylesheet" type="text/css" href="css/homePage.css"/>
+</head>
+<body oncontextmenu=self.event.returnValue=false onselectstart="return false">
+	<div id="top">
+		<img src="img/logo.png"  />
+		<span id="title">成都市基层服务监管平台</span>
+	</div>
+	<div id="hr">
+		<span id="timer" class="float_l timers" style="margin-left: 25px;margin-right: 20px;">
+		</span>
+		<span id="cancel" class="float_l" style="cursor: pointer;">
+			注销
+		</span>
+		<div class="hr_1 float_l"></div>
+		<span id="user" class="float_l">
+			未登录
+		</span>	
+		<img src="img/user.png" class="float_l"/>
+	</div>
+	<div id="middle">
+		<div id="left">
+			<div style="margin-top:10px;cursor: pointer;" id="huiyuan">
+				<div id="icon1" class="float_r"></div>&nbsp;
+				<span id="">会员管理</span>
+			</div>
+			<!--下拉菜单-->
+			<div style="margin-top:10px;cursor: pointer;display:none;" id="huiyuanxiala">
+				<div id="alluser" style="margin-top:10px;margin-left: 30px;">
+					<div id="sock" class="sock float_r"></div>&nbsp;
+					<span id="">查询所有会员</span>
+				</div>
+				<div id="inuser" style="margin-top:10px;cursor: pointer;margin-left: 30px;">
+					<div id="sock" class="sock float_r"></div>&nbsp;
+					<span id="">条件查询会员</span>
+				</div>
+			</div>
+			
+			<div style="margin-top:10px;cursor: pointer;" id="zhengce">
+				<div id="icon2" class="float_r"></div>&nbsp;
+				<span id="">政策法规</span>
+			</div>
+			<!--下拉菜单-->
+			<div style="margin-top:10px;display:none;" id="zhengcexiala">
+				<div id="zc" style="margin-top:10px;margin-left: 30px;cursor: pointer;">
+					<div id="icon_1" class="float_r"></div>&nbsp;
+					<span id="">政策文件</span>
+				</div>
+					<div style="margin-top:10px;display:none;" id="zcxiala">
+						<div id="wenjian_insert" style="margin-top:10px;margin-left: 45px;cursor: pointer;">
+							<div id="sock" class="sock float_r"></div>&nbsp;
+							<span id="">添加文件</span>
+						</div>
+						<div id="wenjian_select" style="margin-top:10px;margin-left: 45px;cursor: pointer;">
+							<div id="sock" class="sock float_r"></div>&nbsp;
+							<span id="">查询(删除)文件</span>
+						</div>
+					</div>
+				<div id="jiedu" style="margin-top:10px;margin-left: 30px;cursor: pointer;">
+					<div id="icon_2" class="float_r"></div>&nbsp;
+					<span id="">政策解读</span>
+				</div>
+					<div style="margin-top:10px;display:none;" id="jieduxiala">
+						<div id="jiedu_insert" style="margin-top:10px;margin-left: 45px;cursor: pointer;">
+							<div id="sock" class="sock float_r"></div>&nbsp;
+							<span id="">添加文件</span>
+						</div>
+						<div id="jiedu_select" style="margin-top:10px;margin-left: 45px;cursor: pointer;">
+							<div id="sock" class="sock float_r"></div>&nbsp;
+							<span id="">查询(删除)文件</span>
+						</div>
+					</div>
+				<div id="fagui" style="margin-top:10px;margin-left: 30px;cursor: pointer;">
+					<div id="icon_3" class="float_r"></div>&nbsp;
+					<span id="">政策法规</span>
+				</div>
+					<div style="margin-top:10px;display:none;" id="faguixiala">
+						<div id="fagui_insert" style="margin-top:10px;margin-left: 45px;cursor: pointer;">
+							<div id="sock" class="sock float_r"></div>&nbsp;
+							<span id="">添加文件</span>
+						</div>
+						<div id="fagui_select" style="margin-top:10px;margin-left: 45px;cursor: pointer;">
+							<div id="sock" class="sock float_r"></div>&nbsp;
+							<span id="">查询(删除)文件</span>
+						</div>
+					</div>
+			</div>
+			
+			<div style="margin-top:10px;cursor: pointer;" id="jiceng">
+				<div id="icon3" class="float_r"></div>&nbsp;
+				<span id="">基层公开</span>
+			</div>
+			<!--下拉菜单-->
+			<div style="margin-top:10px;display:none;" id="jicengxiala">
+				<div id="dangwu" style="margin-top:10px;margin-left: 30px;cursor: pointer;">
+					<div id="icon_4" class="float_r"></div>&nbsp;
+					<span id="">党务公开</span>
+				</div>
+					<div style="margin-top:10px;display:none;" id="dangwuxiala">
+						<div id="dangwu_insert" style="margin-top:10px;margin-left: 45px;cursor: pointer;">
+							<div id="sock" class="sock float_r"></div>&nbsp;
+							<span id="">添加文件</span>
+						</div>
+						<div id="dangwu_selectall" style="margin-top:10px;margin-left: 45px;cursor: pointer;">
+							<div id="sock" class="sock float_r"></div>&nbsp;
+							<span id="">查询所有文件</span>
+						</div>
+						<div id="dangwu_selectin" style="margin-top:10px;margin-left: 45px;cursor: pointer;">
+							<div id="sock" class="sock float_r"></div>&nbsp;
+							<span id="">条件查询文件</span>
+						</div>
+					</div>
+				<div id="zhengwu" style="margin-top:10px;margin-left: 30px;cursor: pointer;">
+					<div id="icon_5" class="float_r"></div>&nbsp;
+					<span id="">政务公开</span>
+				</div>
+					<div style="margin-top:10px;display:none;" id="zhengwuxiala">
+						<div id="zhengwu_insert" style="margin-top:10px;margin-left: 45px;cursor: pointer;">
+							<div id="sock" class="sock float_r"></div>&nbsp;
+							<span id="">添加文件</span>
+						</div>
+						<div id="zhengwu_selectall" style="margin-top:10px;margin-left: 45px;cursor: pointer;">
+							<div id="sock" class="sock float_r"></div>&nbsp;
+							<span id="">查询所有文件</span>
+						</div>
+						<div id="zhengwu_selectin" style="margin-top:10px;margin-left: 45px;cursor: pointer;">
+							<div id="sock" class="sock float_r"></div>&nbsp;
+							<span id="">条件查询文件</span>
+						</div>
+					</div>
+			</div>
+			
+			<div style="margin-top:10px;cursor: pointer;" id="jiandu">
+				<div id="icon4" class="float_r"></div>&nbsp;
+				<span id="">监督管理</span>
+			</div>
+			<!--下拉菜单-->
+			<div style="margin-top:10px;display:none;" id="jianduxiala">
+				<div id="jijian" style="margin-top:10px;margin-left: 30px;cursor: pointer;">
+					<div id="icon_6" class="float_r"></div>&nbsp;
+					<span id="">纪检监察在线举报</span>
+				</div>
+					<div style="margin-top:10px;display:none;" id="jijianxiala">
+						<div id="jijian_select" style="margin-top:10px;margin-left: 45px;cursor: pointer;">
+							<div id="sock" class="sock float_r"></div>&nbsp;
+							<span id="">查看投诉</span>
+						</div>
+					</div>
+				<div id="zuzhi" style="margin-top:10px;margin-left: 30px;cursor: pointer;">
+					<div id="icon_7" class="float_r"></div>&nbsp;
+					<span id="">组织部党员举报投诉</span>
+				</div>
+					<div style="margin-top:10px;display:none;" id="zuzhixiala">
+						<div id="zuzhi_select" style="margin-top:10px;margin-left: 45px;cursor: pointer;">
+							<div id="sock" class="sock float_r"></div>&nbsp;
+							<span id="">查看投诉</span>
+						</div>
+					</div>
+				<div id="jiefang" style="margin-top:10px;margin-left: 30px;cursor: pointer;">
+					<div id="icon_8" class="float_r"></div>&nbsp;
+					<span id="">网上街坊互动大厅</span>
+				</div>
+					<div style="margin-top:10px;display:none;" id="jiefangxiala">
+						<div id="jiefang_select" style="margin-top:10px;margin-left: 45px;cursor: pointer;">
+							<div id="sock" class="sock float_r"></div>&nbsp;
+							<span id="">查看信访</span>
+						</div>
+					</div>
+			</div>
+			
+			<div style="margin-top:10px;cursor: pointer;" id="fuwu">
+				<div id="icon5" class="float_r"></div>&nbsp;
+				<span id="">服务发展</span>
+			</div>
+			<!--下拉菜单-->
+			<div style="margin-top:10px;display:none;" id="fuwuxiala">
+				<div id="jinji" style="margin-top:10px;cursor: pointer;margin-left: 30px;">
+					<div id="icon_9" class="float_r"></div>&nbsp;
+					<span id="">经济发展</span>
+				</div>
+					<div style="margin-top:10px;display:none;" id="jinjixiala">
+						<div id="jinji_insert" style="margin-top:10px;margin-left: 45px;cursor: pointer;">
+							<div id="sock" class="sock float_r"></div>&nbsp;
+							<span id="">添加文件</span>
+						</div>
+						<div id="jinji_select" style="margin-top:10px;margin-left: 45px;cursor: pointer;">
+							<div id="sock" class="sock float_r"></div>&nbsp;
+							<span id="">查询(删除)文件</span>
+						</div>
+					</div>
+				<div id="baixing" style="margin-top:10px;margin-left: 30px;cursor: pointer;">
+					<div id="icon_10" class="float_r"></div>&nbsp;
+					<span id="">百姓生活</span>
+				</div>
+					<div style="margin-top:10px;display:none;" id="baixingxiala">
+						<div id="baixing_select" style="margin-top:10px;margin-left: 45px;cursor: pointer;">
+							<div id="sock" class="sock float_r"></div>&nbsp;
+							<span id="">查询(审核/删除)</span>
+						</div>
+					</div>
+			</div>
+			
+			<div style="margin-top:10px;cursor: pointer;" id="goutong">
+				<div id="icon6" class="float_r"></div>&nbsp;
+				<span id="">沟通互助</span>
+			</div>
+			
+			<!--下拉菜单-->
+			<div style="margin-top:10px;display:none;" id="goutongxiala">
+				<div id="xinxiang" style="margin-top:10px;cursor: pointer;margin-left: 30px;">
+					<div id="icon_11" class="float_r"></div>&nbsp;
+					<span id="">信箱</span>
+				</div>
+					<div style="margin-top:10px;display:none;" id="xinxiangxiala">
+						<div id="xinxiang_select" style="margin-top:10px;margin-left: 45px;cursor: pointer;">
+							<div id="sock" class="sock float_r"></div>&nbsp;
+							<span id="">查看信件</span>
+						</div>
+					</div>
+				<div id="toupiao" style="margin-top:10px;cursor: pointer;margin-left: 30px;">
+					<div id="icon_12" class="float_r"></div>&nbsp;
+					<span id="">投票</span>
+				</div>
+					<div style="margin-top:10px;display:none;" id="toupiaoxiala">
+						<div id="toupiao_insert" style="margin-top:10px;margin-left: 45px;cursor: pointer;">
+							<div id="sock" class="sock float_r"></div>&nbsp;
+							<span id="">发起投票</span>
+						</div>
+						<div id="toupiao_select" style="margin-top:10px;margin-left: 45px;cursor: pointer;">
+							<div id="sock" class="sock float_r"></div>&nbsp;
+							<span id="">查询投票</span>
+						</div>
+					</div>
+				<div id="pingyi" style="margin-top:10px;cursor: pointer;margin-left: 30px;">
+					<div id="icon_13" class="float_r"></div>&nbsp;
+					<span id="">评议</span>
+				</div>
+					<div style="margin-top:10px;display:none;" id="pingyixiala">
+						<div id="pingyi_insert" style="margin-top:10px;margin-left: 45px;cursor: pointer;">
+							<div id="sock" class="sock float_r"></div>&nbsp;
+							<span id="">发起评议</span>
+						</div>
+						<div id="pingyi_select" style="margin-top:10px;margin-left: 45px;cursor: pointer;">
+							<div id="sock" class="sock float_r"></div>&nbsp;
+							<span id="">查询评议</span>
+						</div>
+					</div>
+			</div>
+		</div>
+		<div id="right">
+			<iframe id="oDiframe" src="sys6_pingyi_select.html" width="100%" height="100%" frameborder="0"></iframe>
+		</div>
+	</div>
+</body>
+</html>

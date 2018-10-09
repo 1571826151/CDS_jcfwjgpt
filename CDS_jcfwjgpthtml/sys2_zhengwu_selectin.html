@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/sys2_zhengwu_selectin.css"/>
+	<script src="js/jquery-1.8.0.js"></script>
+	<script src="js/sys2_zhengwu_selectin.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<div id="top">
+		<img src="img/title.png"/>
+		<span id="title">条件查询文件</span>
+		<span class="changediv" id="div2_1">区级文件</span>
+		<span class="changediv" id="div2_2">街道级文件</span>
+	</div>
+	<div class="hr"></div>
+	<div id="middle1" style="display: block;">
+		<div class="dv1 left">区类型：</div>
+		<div class="dv2 left" id="dv2_1">按文件序号查询</div>
+		<div class="dv2 left" id="dv2_2">按编辑时间</div>
+		<div class="dv2 left" id="dv2_3">按所属地区查询</div>
+		<div class="dv2 left" id="dv2_4">按文档名称查询</div>
+	</div>
+	<div id="middle2" style="display: none;">
+		<div class="dv1 left">街道类型：</div>
+		<div class="dv2 left" id="dv2_5">按文件序号查询</div>
+		<div class="dv2 left" id="dv2_6">按编辑时间</div>
+		<div class="dv2 left" id="dv2_7">按所属地区查询</div>
+		<div class="dv2 left" id="dv2_8">按文档名称查询</div>
+	</div>
+	
+	<!--搜索框-->
+	<div id="search">
+		<div class="sea_1" style="display: none;">
+			<div class="inp left">
+				<img src="img/text.png"/>
+				<input type="text" name="请输入文件序号" id="inp1" placeholder="请输入要查询的文件序号" value="" />
+			</div>
+			<div class="btn left">
+				<button id="btn1">查&nbsp;&nbsp;&nbsp;&nbsp;询</button>
+			</div>
+		</div>
+		<div class="sea_1" style="display: none;">
+			<div class="inp left">
+				<span id="dateSpan" class="left">起始时间：</span>
+				<input type="date" name="" id="doDate" value="" />
+				<span id="dateSpan" class="left">结束时间：</span>
+				<input type="date" name="" id="doDate1" value="" />
+			</div>
+			<div class="btn left">
+				<button id="btn2">查&nbsp;&nbsp;&nbsp;&nbsp;询</button>
+			</div>
+		</div>
+		<div class="sea_1" style="display: none;">
+			<div class="inp left">
+				<img src="img/text.png"/>
+				<input type="text" name="请输入所属地区" id="inp3" placeholder="请输入要查询的地区" value="" />
+			</div>
+			<div class="btn left">
+				<button id="btn3">查&nbsp;&nbsp;&nbsp;&nbsp;询</button>
+			</div>
+		</div>
+		<div class="sea_1" style="display: none;">
+			<div class="inp left">
+				<img src="img/text.png"/>
+				<input type="text" name="请输入文档名称" id="inp4" placeholder="请输入要查询的文档名称" value="" />
+			</div>
+			<div class="btn left">
+				<button id="btn4">查&nbsp;&nbsp;&nbsp;&nbsp;询</button>
+			</div>
+		</div>
+	</div>
+	
+	<div id="divtabler">
+		<div class="next3_4_1" id="next3_4_1">
+			<table id = "table">
+				
+			</table>
+			<!--<div class="waitPic" id="waitPic" style="display: none;">
+				<img src="img/wait.gif" />
+			</div>-->
+		</div>
+	</div>
+	
+	<div id="bottom">
+		<ul class="pagination" id="jsPagination">
+			<li>首页</li>
+		    <li></li>
+		    <li></li>
+		    <li></li>
+		    <li></li>
+		    <li></li>
+		    <li>末页</li>
+		</ul>
+	</div>
+</body>
+</html>

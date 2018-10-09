@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/sys6_toupiao_insert.css"/>
+	<script src="js/jquery-1.8.0.js"></script>
+	<script src="js/sys6_toupiao_insert.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<div id="top">
+		<img src="img/title.png"/>
+		<span id="title">&nbsp;发起投票</span>
+	</div>
+	<div class="hr"></div>
+	<div class="middle">
+		<div class="left">
+			<div class="div1">
+				<div class="font">投票主题：</div>
+				<div class="inp">
+					<input type="text" name="" class="input" id="inp1" value="" placeholder="（づ￣3￣）づ╭❤～请输入文件序号"/>
+				</div>
+			</div>
+			<div class="div1">
+				<div class="font">发起部门：</div>
+				<div class="inp">
+					<input type="text" name="" class="input" id="inp2" value="" placeholder="（づ￣3￣）づ╭❤～请输入文件等级"/>
+				</div>
+			</div>
+			<div class="div1">
+				<div class="font">选择范围：</div>
+				<div class="inp">
+					<div class="classify" style="margin-right:50px;" id="qu">
+						区级
+					</div>
+					<div class="classify" id="jiedao">
+						街道级
+					</div>
+				</div>
+			</div>
+			<div class="div1">
+				<div class="font">所属地区：</div>
+				<div class="inp" style="width:200px">
+					<span>区</span>
+					<select name="quji" id="select2">
+						<option value="--请选择--">--请选择--</option>
+					</select>
+				</div>
+				<div class="inp" style="display: none;" id="showjiedao">
+					<span>街道</span>
+					<select name="quji" id="select3" >
+						<option value="--请选择--">--请选择--</option>
+					</select>
+				</div>
+			</div>
+			<div class="div1">
+				<div class="font">开始时间：</div>
+				<div class="inp">
+					<input style="width:200px;" class="input" type="date" name="" id="startDate" value="（づ￣3￣）づ╭❤～请输入文件序号" placeholder="（づ￣3￣）づ╭❤～请输入文件序号"/>
+				</div>
+			</div>
+			<div class="div1">
+				<div class="font">结束时间：</div>
+				<div class="inp">
+					<input style="width:200px;" class="input" type="date" name="" id="endDate" value="（づ￣3￣）づ╭❤～请输入文件序号" placeholder="（づ￣3￣）づ╭❤～请输入文件序号"/>
+				</div>
+			</div>
+			<div class="div1">
+				<div class="font">投票选项：</div>
+				<div class="inp2" id="toupiaoqu">
+					<div class="inp2_1" >
+						<img src="img/add.png"/>
+						<span class="ospan">选项1</span>
+						<input type="text" class="oxxinp" name="" id="xuanxiang1" value="" />
+					</div>
+					<div class="inp2_1">
+						<img src="img/add.png"/>
+						<span class="ospan">选项2</span>
+						<input type="text" class="oxxinp" name="" id="xuanxiang2" value="" />
+					</div>
+					<div class="inp2_1_11" id="lastButton">
+						<button id="addxuanxiang">添 加 选 项</button>
+					</div>
+				</div>
+			</div>
+			<div class="div1">
+				<div class="font">投票描述：</div>
+				<div class="inp1">
+					<textarea name="" rows="" cols="" wrap="hard" id="otextarea"></textarea>
+				</div>
+			</div>
+			<div class="div1">
+				<center>
+					<button id="btn">提&nbsp;&nbsp;&nbsp;交</button>
+				</center>
+			</div>
+		</div>
+		<div class="hr1"></div>
+		<div class="right">
+			
+		</div>
+	</div>
+</body>
+</html>

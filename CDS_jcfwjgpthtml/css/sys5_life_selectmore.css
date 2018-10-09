@@ -1,0 +1,132 @@
+*{margin: 0;padding: 0;}
+
+body{
+	background-image: url(../img/background1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.font{
+	font:bold 22px/33px "RuiHeiXiTi";
+	text-align: center;
+}
+.float{
+	float: left;
+}
+#middle{
+	width:80%;
+	overflow: hidden;
+	/*background: red;*/
+	position: relative;
+	border: solid 4px gray;
+	border-radius: 10px;
+	left: 0;right: 0;
+	margin: 20px auto 20px;
+}
+.odiv1{
+	width:97%;
+	height:60px;
+	margin: 10px 10px 10px 10px;
+	border: solid 1px gray;
+	font:bold 30px/60px "RuiHeiXiTi";
+	background: #ff5000;
+	color: #ffe4dc;
+	text-align: center;
+	transition: 0.5s all ease;
+}
+.odiv1:hover{
+	background: #ffe4dc;
+	color: #ff5000;
+}
+.odiv2{
+	width:97%;
+	overflow: hidden;
+	margin:10px 10px 10px 10px;
+	border-left: solid 1px gray;
+	border-right: solid 1px gray;
+	border-top: solid 1px gray;
+}
+.odiv3{
+	width:97%;
+	overflow: hidden;
+	margin:10px 10px 10px 10px;
+	border-left: solid 1px gray;
+	border-right: solid 1px gray;
+	border-top: solid 1px gray;
+}
+.odiv2_1{
+	width:100%;
+	height:35px;
+	border-bottom: solid 1px gray;
+	
+}
+.odiv2_1_1{
+	width:20%;
+	height:100%;
+	text-align: center;
+	font: 20px/35px "RuiHeiXiTi";
+	border-right: solid 1px gray;
+}
+.odiv2_1_2{
+	width:79%;
+	height:35px;
+	font: 17px/35px "RuiHeiXiTi";
+	color: #777777;
+}
+.odiv2_2{
+	width:100%;
+	min-height: 35px;
+	overflow: hidden;
+	border-bottom: solid 1px gray;
+	
+}
+.odiv2_2_1{
+	width:20%;
+	height:100%;
+	text-align: center;
+	font: 20px/35px "RuiHeiXiTi";
+}
+
+.odiv2_1_3{
+	width:79%;
+	height: 100%;
+	font: 17px/35px "RuiHeiXiTi";
+	word-break:break-all;
+	border-left: solid 1px gray;
+}
+#odiv2_1_3_1,#odiv2_1_3_2{
+	margin:0 0 5px 10px;
+	font: 18px "RuiHeiXiTi";
+	color: #777777;
+}
+.odiv4{
+	width:97%;
+	overflow: hidden;
+	margin:10px 10px 10px 10px;
+	border: solid 1px gray;
+}
+.odiv4_1{
+	width:50%;
+	height:45px;
+	float:left;
+}
+.odiv4_1_1{
+	width:70%;
+	height:35px;
+	left: 0;right: 0;
+	margin:5px auto 0;
+}
+button{
+	width:100%;
+	height:35px;
+	border-radius: 10px;
+	background: #f2904f;
+	color: #fce8da;
+	font:bold 15px "RuiHeiXiTi";
+	
+	transition: 0.5s all ease;
+}
+button:hover{
+	background: #fce8da;
+	color: #f2904f;
+	font:bold 20px "RuiHeiXiTi";
+}

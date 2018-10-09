@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/sys5_jinji_select.css"/>
+	<script src="js/domath.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/sys5_jinji_select.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<div id="top">
+		<img src="img/title.png"/>
+		<span id="title">条件查询文件</span>
+	</div>
+	<div class="hr"></div>
+	<div id="middle">
+		<div class="dv1 left" >文件类型：</div>
+		<div class="dv2 dvjinji left" id="jinji1">特色经济</div>
+		<div class="dv2 dvjinji left" id="jinji2">旅游休闲</div>
+		<div class="dv2 dvjinji left" id="jinji3">特色产品</div>
+		
+	</div>
+	<div id="wodiv" style="opacity: 1;">
+		<div id="middle">
+			<div class="dv1 left">搜索类型：</div>
+			<div class="dv2 left" id="dv2_1">按文件序号查询</div>
+			<div class="dv2 left" id="dv2_2">按编辑时间</div>
+			<div class="dv2 left" id="dv2_3">按所属地区查询</div>
+			<div class="dv2 left" id="dv2_4">按文档名称查询</div>
+		</div>
+		
+		<!--搜索框-->
+		<div id="search">
+			<div class="sea_1" style="display: none;">
+				<div class="inp left">
+					<img src="img/text.png"/>
+					<input type="text" name="请输入文件序号" id="" placeholder="请输入要查询的文件序号" value="" />
+				</div>
+				<div class="btn left">
+					<button>查&nbsp;&nbsp;&nbsp;&nbsp;询</button>
+				</div>
+			</div>
+			<div class="sea_1" style="display: none;">
+				<div class="inp left">
+					<span id="dateSpan" class="left">起始时间：</span>
+					<input type="date" name="" id="doDate" value="" />
+					<span id="dateSpan" class="left">结束时间：</span>
+					<input type="date" name="" id="doDate1" value="" />
+				</div>
+				<div class="btn left">
+					<button>查&nbsp;&nbsp;&nbsp;&nbsp;询</button>
+				</div>
+			</div>
+			<div class="sea_1" style="display: none;">
+				<div class="inp left">
+					<img src="img/text.png"/>
+					<input type="text" name="请输入所属地区" id="" placeholder="请输入要查询的地区" value="" />
+				</div>
+				<div class="btn left">
+					<button>查&nbsp;&nbsp;&nbsp;&nbsp;询</button>
+				</div>
+			</div>
+			<div class="sea_1" style="display: none;">
+				<div class="inp left">
+					<img src="img/text.png"/>
+					<input type="text" name="请输入文档名称" id="" placeholder="请输入要查询的文档名称" value="" />
+				</div>
+				<div class="btn left">
+					<button>查&nbsp;&nbsp;&nbsp;&nbsp;询</button>
+				</div>
+			</div>
+		</div>
+		
+		<div id="divtabler">
+			<div class="next3_4_1">
+				<table>
+					<tr>
+						<th>文件序号</th>
+						<th>编辑时间</th>
+						<th>所属地区</th>
+						<th>文档名称</th>
+						<th></th>
+						<th></th>
+					</tr>
+					<tr>
+						<td>1212</td>
+						<td>121</td>
+						<td>212</td>
+						<td>121</td>
+						<td>查看详细</td>
+						<td>删除</td>
+					</tr>
+					<tr>
+						<td>1212</td>
+						<td>121</td>
+						<td>212</td>
+						<td>121</td>
+						<td>查看详细</td>
+						<td>删除</td>
+					</tr>
+					<tr>
+						<td>1212</td>
+						<td>121</td>
+						<td>212</td>
+						<td>121</td>
+						<td>查看详细</td>
+						<td>删除</td>
+					</tr>
+					<tr>
+						<td>1212</td>
+						<td>121</td>
+						<td>212</td>
+						<td>121</td>
+						<td>查看详细</td>
+						<td>删除</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		
+		<div id="bottom">
+			<ul class="pagination" id="jsPagination">
+				<li>首页</li>
+			    <li></li>
+			    <li></li>
+			    <li></li>
+			    <li></li>
+			    <li></li>
+			    <li>末页</li>
+			</ul>
+		</div>
+	</div>
+	
+</body>
+</html>

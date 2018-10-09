@@ -1,0 +1,268 @@
+*{margin: 0;padding: 0;}
+
+.left{
+	float: left;
+}
+#top img{
+	position: relative;
+	top:2px;
+	left:5px;
+}
+#title{
+	font:22px "RuiHeiXiTi";
+}
+.hr{
+	width:98%;	/*记着更改*/
+	position: relative;
+	left:5px;
+	height:2px;
+	background:black;
+	top:5px;
+}
+#middle{
+	width:96%;
+	height:40px;
+	position: relative;
+	border: solid 2px gainsboro;
+	left: 0;right: 0;
+	margin:15px auto 0;
+}
+#middle div{
+	height:40px;
+	position: relative;
+	left: 20px;
+	font: 25px/35px "RuiHeiXiTi";
+}
+.dv1{
+	width:125px;
+}
+.dv2{
+	width:200px;
+	/*background:red;*/
+	text-align: center;
+	cursor: pointer;
+	border-radius: 10px;
+	margin-left: 5px;
+	
+	transition: 0.3s all ease;
+}
+
+.dv2:hover{
+	background:#ffe4dc;
+	color: #ff5000;
+}
+.buttom{
+	width:96%;
+	overflow: hidden;
+	position: relative;
+	border: solid 2px gainsboro;
+	left: 0;right: 0;
+	margin:15px auto 15px;
+	background: #d7dadf;
+}
+
+.divleft{
+	width:98%;
+	overflow: hidden;
+	/*background: blue;*/
+	position: relative;
+	float: left;
+	margin: 10px 0 10px 10px ;
+}
+.div1{
+	width:98%;
+	overflow: hidden;
+	/*background: red;*/
+	position: relative;
+	left: 0;right: 0;
+	margin: 10px auto 0;
+}
+.div1 .font{
+	width:135px;
+	/*background: blue;*/
+	height:40px;
+	float: left;
+	letter-spacing: 5px;
+	font:bold 22px/40px "RuiHeiXiTi";
+	margin-left: 10px;
+}
+.div1 .inp{
+	width:400px;
+	height:40px;
+	position: relative;
+	margin-left: 10px;
+	float: left;
+	/*background: green;*/
+}
+
+
+.input{
+	width:400px;
+	height: 30px;
+	position: relative;
+	top:5px;
+	border: 0;
+}
+
+.div1 .inp2{
+	width:400px;
+	overflow: hidden;
+	position: relative;
+	margin-left: 10px;
+	float: left;
+}
+.inp2_1,.inp2_1_11{
+	width: 100%;
+	height: 40px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	background: white;
+}
+.inp2_1 img{
+	float: left;
+	display: inline;
+	margin-top: 10px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.inp2_1 span{
+	width:18%;
+	height: 40px;
+	display: block;
+	float: left;
+	font:20px/40px "RuiHeiXiTi";
+	text-align: center;
+}
+.inp2_1 input{
+	width: 63%;
+	height: 30px;	
+	margin:5px 0 5px 5px;
+	border: 0;
+	float: left;
+	font:17px "RuiHeiXiTi";
+	padding-left: 10px;
+	background: #bababa;
+}
+#addxuanxiang{
+	width:100%;
+	height:40px;
+	position: relative;
+	left: 0;right: 0;
+	top: 0;bottom: 0;
+	margin: auto;
+	background: white;
+	border-color: white;
+	color:black;
+	font: 20px "RuiHeiXiTi";
+	border-radius: 10px;
+	
+	transition: 0.5s all ease;
+}
+#addxuanxiang:hover{
+	background: #bababa;
+	border-color: #bababa;
+	color:#edff76;
+	font: 25px "RuiHeiXiTi";
+}
+
+.div1 .inp1{
+	width:100%;
+	overflow: hidden;
+	position: relative;
+	margin-left: 10px;
+	/*background: green;*/
+}
+.div1 .inp1 textarea{
+	min-width: 560px;
+	max-width: 560px;
+	min-height: 165px;
+	height:165px;
+	border-radius: 10px;
+	border: 0;
+	margin-top:10px;
+	padding: 20px 20px 20px 20px;
+}
+#input{
+	width:400px;
+	height: 30px;
+	position: relative;
+	top:5px;
+	border: 0;
+}
+#input1{
+	width:330px;
+	height: 30px;
+	position: relative;
+	top:5px;
+	border: 0;
+}
+#select1{
+	width:200px;
+	height:30px;
+	margin-top:5px;
+	/*border-radius: 10px;*/
+	border: 0px;
+	letter-spacing: 2px;
+	font:16px "RuiHeiXiTi";
+}
+.inp span{
+	height:40px;
+	float:left;
+	margin-right: 10px;
+	font: 15px/40px "RuiHeiXiTi";
+	
+}
+#wenzi_select2,#wenzi_select3,#xuanxiang_select2,#xuanxiang_select3{
+	width:150px;
+	height:30px;
+	margin-top:5px;
+	float:left;
+	border: 0px;
+	letter-spacing: 2px;
+	font:16px "RuiHeiXiTi";
+}
+
+button{
+	width:80%;
+	height:50px;
+	position: relative;
+	margin-top:10px;
+	background: #ff5000;
+	border-color: #ff5000;
+	color:#ffe4dc;
+	font:bold 22px "RuiHeiXiTi";
+	border-radius: 10px;
+	
+	transition: 0.5s all ease;
+}
+button:hover{
+	background: #ffe4dc;
+	border-color: #ffe4dc;
+	color:#ff5000;
+	
+	
+}
+.hr1{
+	width:2px;
+	height:200px;
+	position: absolute;
+	right: 390px;top: 10px;
+	background: #8a8c90;
+}
+.divright{
+	width:31%;
+	height:200px;
+	background: blue;
+	position: absolute;
+	right: 20px;top: 10px;
+}
+
+.classify{
+	float:left;
+	height:40px;
+	font:20px/40px "RuiHeiXiTi";
+	cursor: pointer;
+}
+.classify:hover{
+	color:gray;
+}

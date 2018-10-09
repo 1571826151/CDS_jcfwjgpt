@@ -1,0 +1,147 @@
+*{margin: 0;padding: 0;}
+
+#top{
+	position: relative;
+}
+#top img{
+	position: relative;
+	left: 5px;
+	top:2px;
+}
+#title{
+	font:22px "RuiHeiXiTi";
+}
+.hr{
+	width:97%;	/*记着更改*/
+	position: relative;
+	left:10px;
+	height:2px;
+	background:black;
+	top:5px;
+}
+.middle{
+	width:96%;
+	overflow: hidden;
+	position: relative;
+	border: solid 2px gainsboro;
+	left: 0;right: 0;
+	padding-bottom: 15px;
+	margin:15px auto 15px;
+	background: #d7dadf;
+	
+}
+.left{
+	width:98%;
+	overflow: hidden;
+	/*background: blue;*/
+	position: relative;
+	float: left;
+	left: 10px;top: 10px;
+}
+.hr1{
+	width:2px;
+	height:200px;
+	position: absolute;
+	right: 390px;top: 10px;
+	background: #8a8c90;
+}
+
+.right{
+	width:31%;
+	height:200px;
+	background: blue;
+	position: absolute;
+	right: 20px;top: 10px;
+}
+.div1{
+	width:98%;
+	overflow: hidden;
+	/*background: red;*/
+	position: relative;
+	left: 0;right: 0;
+	margin: 10px auto 0;
+}
+.div1 .font{
+	width:135px;
+	/*background: blue;*/
+	height:40px;
+	float: left;
+	letter-spacing: 5px;
+	font:bold 22px/40px "RuiHeiXiTi";
+	margin-left: 10px;
+}
+.div1 .inp{
+	width:400px;
+	height:40px;
+	position: relative;
+	margin-left: 10px;
+	float: left;
+	/*background: green;*/
+}
+.div1 .inp1{
+	width:100%;
+	overflow: hidden;
+	position: relative;
+	margin-left: 10px;
+	/*background: green;*/
+}
+#inp1,#inp2,#inp3{
+	width:400px;
+	height: 30px;
+	position: relative;
+	top:5px;
+	border: 0;
+}
+#select1{
+	width:200px;
+	height:30px;
+	margin-top:5px;
+	/*border-radius: 10px;*/
+	border: 0px;
+	letter-spacing: 2px;
+	font:16px "RuiHeiXiTi";
+}
+.inp span{
+	height:40px;
+	float:left;
+	margin-right: 10px;
+	font: 15px/40px "RuiHeiXiTi";
+	
+}
+#select2,#select3{
+	width:150px;
+	height:30px;
+	margin-top:5px;
+	float:left;
+	border: 0px;
+	letter-spacing: 2px;
+	font:16px "RuiHeiXiTi";
+}
+
+button{
+	width:80%;
+	height:50px;
+	position: relative;
+	margin-top:10px;
+	background: #ff5000;
+	border-color: #ff5000;
+	color:#ffe4dc;
+	font:bold 22px "RuiHeiXiTi";
+	border-radius: 10px;
+	
+	transition: 0.5s all ease;
+}
+button:hover{
+	background: #ffe4dc;
+	border-color: #ffe4dc;
+	color:#ff5000;
+}
+.classify{
+	float:left;
+	height:40px;
+	font:20px/40px "RuiHeiXiTi";
+	cursor: pointer;
+}
+.classify:hover{
+	color:gray;
+}

@@ -1,0 +1,109 @@
+*{margin: 0;padding: 0;}
+body{
+	background: url(../img/background0.jpg);
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+}
+.float_l{
+	float: right;
+}
+.float_r{
+	float: left;
+}
+#top{
+	height:13%;
+	border:solid 3px #9abcf7;
+	border-radius: 10px;
+}
+#top img{
+	width:5.2%;
+	margin-top:1%;
+	margin-left:5.12%;
+	position: relative;
+}
+#top #title{
+	position: relative;
+	left:5.12%;
+	top:-20%;
+	color:#8b3a4d;
+	letter-spacing: 10px;
+	font:bold 50px "RuiHeiXiTi";
+}
+#top #title span{
+	transition: 0.5s all ease;
+}
+#hr{
+	height:4%;
+	border:solid 3px #9abcf7;
+	margin-top: 0.35%;
+	border-radius: 10px;
+}
+#hr img{
+	width:2.2%;
+	height:100%;
+}
+#hr #user,#hr #cancel,#hr #timer{
+	height:3.9%;
+	position: relative;
+	left: 0;top: 0;
+	font:22px "RuiHeiXiTi";
+	margin-left: 0.37%;
+
+}
+.hr_1{
+	width:2px;
+	height:30px;
+	position: relative;
+	background: black;
+	margin-left: 5px;
+}
+#middle{
+	height:80%;
+	/*background: red;*/
+	margin-top: 0.39%;
+	
+}
+#left{
+	position: relative;
+	width:16.1%;
+	height:98%;
+	border:solid 3px #9abcf7;
+	border-radius: 10px;
+	float: left;
+	
+}
+#icon1,#icon2,#icon3,#icon4,#icon5,#icon6{
+	width:20px;
+	height:20px;
+	background: url(../img/addorsub.gif);
+	background-repeat: no-repeat;
+	/*background-size: 20px 20px;*/
+	background-position: 0px 0px;
+	margin-left: 10px;
+}
+#icon_1,#icon_2,#icon_3,#icon_4,#icon_5
+,#icon_6,#icon_7,#icon_8,#icon_9,#icon_10
+,#icon_11,#icon_12,#icon_13{
+	width:20px;
+	height:20px;
+	background: url(../img/upordown.gif);
+	background-repeat: no-repeat;
+	/*background-size: 20px 20px;*/
+	background-position: 0px -18px;
+	margin-left: 10px;
+}
+#sock{
+	width:20px;
+	height:20px;
+	background-repeat: no-repeat;
+	margin-left: 10px;
+}
+
+#right{
+	height:98%;
+	border:solid 3px #9abcf7;
+	border-radius: 10px;
+	margin-left: 3px;;
+	position: relative;
+	float: left;
+}

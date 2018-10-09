@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/sys6_pingyi_insert.css"/>
+	<script src="js/domath.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/jquery-1.8.0.js"></script>
+	<script src="js/sys6_pingyi_insert.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<div id="top">
+		<img src="img/title.png"/>
+		<span id="title">&nbsp;添加评议</span>
+	</div>
+	<div class="hr"></div>
+	<div id="middle">
+		<div class="dv1 left" >评议类型：</div>
+		<div class="dv2 dvjinji left" id="pingyi1">文字评议</div>
+		<div class="dv2 dvjinji left" id="pingyi2">选项评议</div>
+	</div>
+	<div class="buttom" id="bottom1">
+		<div class="divleft">
+			<div class="div1">
+				<div class="font">评议主题：</div>
+				<div class="inp">
+					<input type="text" class="input" name="" id="wenzi_inp1" value="" placeholder="（づ￣3￣）づ╭❤～请输入文件序号"/>
+				</div>
+			</div>
+			<div class="div1">
+				<div class="font">发起部门：</div>
+				<div class="inp">
+					<input type="text" class="input" name="" id="wenzi_inp2" value="" placeholder="（づ￣3￣）づ╭❤～请输入文件等级"/>
+				</div>
+			</div>
+			<div class="div1">
+				<div class="font">选择范围：</div>
+				<div class="inp">
+					<div class="classify" style="margin-right:50px;" id="wenzi_qu">
+						区级
+					</div>
+					<div class="classify" id="wenzi_jiedao">
+						街道级
+					</div>
+				</div>
+			</div>
+			<div class="div1">
+				<div class="font">所属地区：</div>
+				<div class="inp" style="width:200px">
+					<span>区</span>
+					<select name="quji" id="wenzi_select2">
+						<option value="--请选择--">--请选择--</option>
+					</select>
+				</div>
+				<div class="inp" style="display: none;" id="wenzi_showjiedao">
+					<span>街道</span>
+					<select name="quji" id="wenzi_select3" >
+						<option value="--请选择--">--请选择--</option>
+					</select>
+				</div>
+			</div>
+			<div class="div1">
+				<div class="font">开始时间：</div>
+				<div class="inp">
+					<input style="width:200px;" class="input" type="date" name="" id="wenzi_startTime" value="（づ￣3￣）づ╭❤～请输入文件序号" placeholder="（づ￣3￣）づ╭❤～请输入文件序号"/>
+				</div>
+			</div>
+			<div class="div1">
+				<div class="font">结束时间：</div>
+				<div class="inp">
+					<input style="width:200px;" class="input" type="date" name="" id="wenzi_endTime" value="（づ￣3￣）づ╭❤～请输入文件序号" placeholder="（づ￣3￣）づ╭❤～请输入文件序号"/>
+				</div>
+			</div>
+			<div class="div1">
+				<div class="font">评议描述：</div>
+				<div class="inp1">
+					<textarea name="" rows="" cols="" wrap="hard" id="wenzi_otextarea"></textarea>
+				</div>
+			</div>
+			<div class="div1">
+				<center>
+					<button id="wenzi_btn">提&nbsp;&nbsp;&nbsp;交</button>
+				</center>
+			</div>
+		</div>
+		<div class="hr1"></div>
+		<div class="divright">
+			
+		</div>
+	</div>
+	<div class="buttom" id="bottom2" style="display: none;">
+		<div class="divleft">
+			<div class="div1">
+				<div class="font">评议主题：</div>
+				<div class="inp">
+					<input type="text" class="input" name="" id="xuanxiang_inp1" value="" placeholder="（づ￣3￣）づ╭❤～请输入文件序号"/>
+				</div>
+			</div>
+			<div class="div1">
+				<div class="font">发起部门：</div>
+				<div class="inp">
+					<input type="text" class="input" name="" id="xuanxiang_inp2" value="" placeholder="（づ￣3￣）づ╭❤～请输入文件等级"/>
+				</div>
+			</div>
+			<div class="div1">
+				<div class="font">选择范围：</div>
+				<div class="inp">
+					<div class="classify" style="margin-right:50px;" id="xuanxiang_qu">
+						区级
+					</div>
+					<div class="classify" id="xuanxiang_jiedao">
+						街道级
+					</div>
+				</div>
+			</div>
+			<div class="div1">
+				<div class="font">所属地区：</div>
+				<div class="inp" style="width:200px">
+					<span>区</span>
+					<select name="quji" id="xuanxiang_select2">
+						<option value="--请选择--">--请选择--</option>
+					</select>
+				</div>
+				<div class="inp" style="display: none;" id="xuanxiang_showjiedao">
+					<span>街道</span>
+					<select name="quji" id="xuanxiang_select3" >
+						<option value="--请选择--">--请选择--</option>
+					</select>
+				</div>
+			</div>
+			<div class="div1">
+				<div class="font">开始时间：</div>
+				<div class="inp">
+					<input style="width:200px;" class="input" type="date" name="" id="xuanxiang_startTime" value="（づ￣3￣）づ╭❤～请输入文件序号" placeholder="（づ￣3￣）づ╭❤～请输入文件序号"/>
+				</div>
+			</div>
+			<div class="div1">
+				<div class="font">结束时间：</div>
+				<div class="inp">
+					<input style="width:200px;" class="input" type="date" name="" id="xuanxiang_endTime" value="（づ￣3￣）づ╭❤～请输入文件序号" placeholder="（づ￣3￣）づ╭❤～请输入文件序号"/>
+				</div>
+			</div>
+			<div class="div1">
+				<div class="font">评议选项：</div>
+				<div class="inp2" id="toupiaoqu">
+					<div class="inp2_1" >
+						<img src="img/add.png"/>
+						<span class="ospan">选项1</span>
+						<input type="text" class="oxxinp" name="" id="xuanxiang1" value="" />
+					</div>
+					<div class="inp2_1">
+						<img src="img/add.png"/>
+						<span class="ospan">选项2</span>
+						<input type="text" class="oxxinp" name="" id="xuanxiang2" value="" />
+					</div>
+					<div class="inp2_1_11" id="lastButton">
+						<button id="addxuanxiang">添 加 选 项</button>
+					</div>
+				</div>
+			</div>
+			<div class="div1">
+				<div class="font">评议描述：</div>
+				<div class="inp1">
+					<textarea name="" rows="" cols="" wrap="hard" id="xuanxiang_otextarea"></textarea>
+				</div>
+			</div>
+			<div class="div1">
+				<center>
+					<button id="xuanxiang_btn">提&nbsp;&nbsp;&nbsp;交</button>
+				</center>
+			</div>
+		</div>
+		<div class="hr1"></div>
+		<div class="divright">
+			
+		</div>
+	</div>
+</body>
+</html>
